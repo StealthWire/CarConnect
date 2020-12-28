@@ -4,7 +4,7 @@ A car comparison portal which uses Natural Language Processing (NLP) and Machine
 
 ## Installation
 1) Initial Setup
-- Open [ProjCar Conf settings XAMPP.rtf](ProjCar Conf settings XAMPP.rtf) and follow the steps to increase import limitations of XAMPP.
+- Open **ProjCar Conf settings XAMPP.rtf** and follow the steps to increase import limitations of XAMPP.
 - Create Database autoexpress - latin1_swedish_ci collation.
 - Import [autoexpress.sql](autoexpress.sql). 6 Tables will be imported into autoexpress database. 
 - Install necessary python modules from setup.py. (sys, tweepy, textblob, matplotlib etc.)
@@ -26,8 +26,8 @@ A car comparison portal which uses Natural Language Processing (NLP) and Machine
 - There are files such as [HondaCIVIC2019.html](autoexpress/HondaCIVIC2019.html) that fetch data from [sirv.com](sirv.com) to render a 360 degree image of cars. 
 
 ## What does what?
-- Multiple iframes are used. [compare.php](autoexpress/compare.php) is running [autoexpress/index.html](autoexpress/index.html) in iframe and login is running [login1.php](login/login1.php) in iframe etc. 
-- If you wish to make changes, find the source file such as [autoexpress/index.html](autoexpress/index.html) etc. 
+- Multiple iframes are used. [compare.php](compare.php) is running [autoexpress/index.php](autoexpress/index.php) in iframe and login is running [login1.php](login/login1.php) in iframe etc. 
+- If you wish to make changes, find the source file such as [autoexpress/index.php](autoexpress/index.php) etc. 
 - Run [twitter/viewTwee.py](twitter/viewTwee.py) in cmd/terminal or python interpreter of your choice. The app will run on flask and will be integrated into iframe.
 - To use feedback you need mercury mail server or other mail server. 
 - Admin login is used to add or delete vehicle inventory. Same can be directly achieved via phpmyadmin.
