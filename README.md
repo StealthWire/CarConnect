@@ -26,12 +26,12 @@ A car comparison portal which uses Natural Language Processing (NLP) and Machine
 - There are files such as HondaCIVIC2019.html that fetch data from [sirv.com](sirv.com) to render a 360 degree image of cars. 
 
 ## What does what?
-a) Multiple iframes are used. compare.php is running autoexpress/index.html in iframe and login is running login1.php in iframe etc. 
-b) If you wish to make changes, find the source file such as autoexpress/index.html etc. 
-c) Run twitter/viewTwee.py in cmd/terminal or python interpreter of your choice. The app will run on flask and will be integrated into iframe.
-d) To use feedback you need mercury mail server or other mail server. 
-e) Admin login is used to add or delete vehicle inventory. Same can be directly achieved via phpmyadmin.
-f) Sign in area is used for customer login and favoriting cars.
+- Multiple iframes are used. compare.php is running autoexpress/index.html in iframe and login is running login1.php in iframe etc. 
+- If you wish to make changes, find the source file such as autoexpress/index.html etc. 
+- Run twitter/viewTwee.py in cmd/terminal or python interpreter of your choice. The app will run on flask and will be integrated into iframe.
+- To use feedback you need mercury mail server or other mail server. 
+- Admin login is used to add or delete vehicle inventory. Same can be directly achieved via phpmyadmin.
+- Sign in area is used for customer login and favoriting cars.
 
 
 ## Why is it this way?
