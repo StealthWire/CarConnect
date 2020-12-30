@@ -1,6 +1,9 @@
 ## Car-Connect
 
-A car comparison portal which uses Natural Language Processing (NLP) and Machine Learning to visually compare 2 cars. Sentiment analysis is performed by car name and year. View video demo : 
+A car comparison portal which uses Natural Language Processing (NLP) and Machine Learning to visually compare 2 cars. Sentiment analysis is performed by car name and year. View video demo : [https://youtu.be/rV3LtkRFDY0](https://youtu.be/rV3LtkRFDY0)
+
+![](/img/demo1.png)![](/img/demo2.png)![](/img/demo3.png)
+
 
 ## Installation
 1) Initial Setup
